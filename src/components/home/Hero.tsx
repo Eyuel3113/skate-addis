@@ -19,7 +19,7 @@ export function Hero() {
             <motion.div style={{ y }} className="absolute inset-0 z-0 h-[120%]">
                 <div className="absolute inset-0 w-full h-full">
                     <NextImage
-                        src="https://images.unsplash.com/photo-1520045864981-8a4a13aa8672?q=80&w=2070&auto=format&fit=crop"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKOzVp_tBN0dJ39IR60qMSh7KbgOlIO6mE2w&s"
                         alt="Skateboarding Saves Lives"
                         fill
                         className="object-cover object-center"
