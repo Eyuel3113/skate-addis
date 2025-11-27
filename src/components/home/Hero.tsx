@@ -20,7 +20,7 @@ export function Hero() {
                 <div className="absolute inset-0 w-full h-full">
                     <NextImage
                         src="../../public/hero.avif"
-                        alt="Skateboarding Saves Lives"
+                        alt="hero section image"
                         fill
                         className="object-cover object-center"
                         priority
