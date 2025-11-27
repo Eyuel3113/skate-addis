@@ -19,7 +19,7 @@ export function Hero() {
             <motion.div style={{ y }} className="absolute inset-0 z-0 h-[120%]">
                 <div className="absolute inset-0 w-full h-full">
                     <NextImage
-                        src="/hero2.jpg"
+                        src="/hero.jpg"
                         alt="hero section image"
                         fill
                         className="object-cover object-center"
