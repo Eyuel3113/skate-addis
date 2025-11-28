@@ -12,7 +12,7 @@ const events = [
         time: "10:00 AM - 2:00 PM",
         location: "Addis Skatepark, Addis Ababa",
         description: "Open session for all skill levels. Gear provided for beginners. Come learn to skate!",
-        image: "https://images.unsplash.com/photo-1520045864981-8a4a13aa8672?q=80&w=800&auto=format&fit=crop"
+        image: "/blog.jpg"
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const events = [
         time: "2:00 PM - 5:00 PM",
         location: "Hawassa Skatepark",
         description: "A dedicated session to encourage more girls to join the sport. Female coaches available.",
-        image: "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=800&auto=format&fit=crop"
+        image: "blog2.jpg"
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const events = [
         time: "All Day",
         location: "Various Locations",
         description: "The biggest skate event of the year! Competitions, prizes, and street skating throughout the city.",
-        image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=800&auto=format&fit=crop"
+        image: "blog3.jpg"
     }
 ];
 
