@@ -37,7 +37,7 @@ export const mockTeam: TeamMember[] = [
 ];
 
 export const mockMilestones: Milestone[] = [
-    { year: "2013", title: "Ethiopia Skate Founded", description: "First skate sessions in Addis Ababa parking lots." },
+    { year: "2013", title: "Skate Addis Founded", description: "First skate sessions in Addis Ababa parking lots." },
     // ... more milestones
 ];
 

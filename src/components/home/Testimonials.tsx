@@ -19,7 +19,7 @@ const testimonials = [
         name: "Abenezer Temesgen",
         role: "Pro Skater",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop",
-        quote: "Ethiopia Skate changed my life. It gave me a community, a passion, and a future I never dreamed of.",
+        quote: "Skate Addis changed my life. It gave me a community, a passion, and a future I never dreamed of.",
         rating: 5
     },
     {

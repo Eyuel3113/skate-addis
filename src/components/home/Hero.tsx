@@ -45,7 +45,7 @@ export function Hero() {
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
                             </span>
-                            <span className="text-sm font-medium tracking-wider uppercase text-white">Ethiopia Skate</span>
+                            <span className="text-sm font-medium tracking-wider uppercase text-white">Skate Addis</span>
                         </div>
 
                         <h1 className="text-5xl text-white md:text-7xl lg:text-8xl font-black tracking-tighter mb-6 leading-tight drop-shadow-lg">

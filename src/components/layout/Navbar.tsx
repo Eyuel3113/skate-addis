@@ -47,8 +47,8 @@ export function Navbar() {
         >
             <div className="container flex h-20 items-center justify-between px-4 md:px-6 mx-auto">
                 <Link href="/" className="flex items-center gap-2 font-black text-2xl tracking-tighter group">
-                    <span className="text-primary group-hover:scale-110 transition-transform duration-300">ETHIOPIA</span>
-                    <span className="group-hover:text-primary transition-colors duration-300">SKATE</span>
+                    <span className="text-primary group-hover:scale-110 transition-transform duration-300">SKATE</span>
+                    <span className="group-hover:text-primary transition-colors duration-300">ADDIS</span>
                 </Link>
 
                 {/* Desktop Nav */}
@@ -115,10 +115,10 @@ export function Navbar() {
                                             </div>
                                             <div>
                                                 <div className="font-black text-xl tracking-tighter leading-none">
-                                                    <span className="text-primary">ETHIOPIA</span>
+                                                    <span className="text-primary">SKATE</span>
                                                 </div>
                                                 <div className="font-black text-xl tracking-tighter leading-none text-foreground">
-                                                    SKATE
+                                                    ADDIS
                                                 </div>
                                             </div>
                                         </div>
@@ -201,7 +201,7 @@ export function Navbar() {
                                             <span>Active</span>
                                         </div>
                                         <div className="h-3 w-px bg-border/50" />
-                                        <span>© 2025 Ethiopia Skate</span>
+                                        <span>© 2025 Skate ADDIS</span>
                                     </div>
                                 </div>
                             </div>

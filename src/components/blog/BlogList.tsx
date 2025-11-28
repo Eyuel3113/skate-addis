@@ -12,7 +12,7 @@ const posts = [
         excerpt: "We are thrilled to announce the start of construction for our second major skatepark project in Southern Ethiopia.",
         date: "November 10, 2025",
         author: "Abenezer Temesgen",
-        image: "https://images.unsplash.com/photo-1520045864981-8a4a13aa8672?q=80&w=800&auto=format&fit=crop"
+        image: "/blog.jpg"
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const posts = [
         excerpt: "Over 200 kids showed up for our biggest event yet. Check out the highlights and winners from the competition.",
         date: "October 25, 2025",
         author: "Sean Stromsoe",
-        image: "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=800&auto=format&fit=crop"
+        image: "/blog2.jpg"
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const posts = [
         excerpt: "More than just a sport, skateboarding teaches resilience, creativity, and community building.",
         date: "September 15, 2025",
         author: "Micky Asfaw",
-        image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=800&auto=format&fit=crop"
+        image: "/blog3.jpg"
     }
 ];
 

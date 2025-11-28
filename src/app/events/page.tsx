@@ -39,7 +39,7 @@ export default function EventsPage() {
                 </div>
 
                 <EventList />
-                <PhotoGallery />
+              
             </div>
         </main>
     );

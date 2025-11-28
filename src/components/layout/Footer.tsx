@@ -13,7 +13,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="space-y-6">
                         <Link href="/" className="flex items-center gap-2 font-black text-2xl tracking-tighter">
-                            <span className="text-primary">ETHIOPIA</span> SKATE
+                            <span className="text-primary">SKATE</span> ADDIS
                         </Link>
                         <p className="text-muted-foreground leading-relaxed">
                             Empowering youth through skateboarding. Building communities, fostering creativity, and creating future leaders across Ethiopia.

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ethiopia Skate",
+  title: "Skate Addis",
   description: "Empowering Ethiopian youth through skateboarding.",
 };
 

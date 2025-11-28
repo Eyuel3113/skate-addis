@@ -32,7 +32,7 @@ export function Story() {
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
                     <div className="space-y-4 text-muted-foreground text-lg">
                         <p>
-                            Ethiopia Skate was founded in 2013 with a simple mission: to empower youth through skateboarding. What started as a small group of kids sharing a single board has grown into a nationwide movement.
+                            Skate Addis was founded in 2013 with a simple mission: to empower youth through skateboarding. What started as a small group of kids sharing a single board has grown into a nationwide movement.
                         </p>
                         <p>
                             We believe that skateboarding is more than just a sport—it's a tool for building confidence, community, and creativity. In a country where resources for youth are often limited, our skateparks provide a safe haven where kids can challenge themselves and support one another.
