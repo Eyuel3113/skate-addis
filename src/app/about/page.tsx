@@ -7,8 +7,8 @@ import { PageHeader } from "@/components/ui/PageHeader";
 
 export default function AboutPage() {
     return (
-        <>
-            {/* <PageHeader
+     {/*   <>
+             <PageHeader
                 title="ABOUT US"
                 description="Building a community through the power of skateboarding."
                 backgroundImage="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=2070&auto=format&fit=crop"
@@ -35,6 +35,6 @@ export default function AboutPage() {
             <Story />
             <Timeline />
             <Team />
-        </>
+        // </>
     );
 }
