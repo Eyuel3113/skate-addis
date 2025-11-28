@@ -7,7 +7,12 @@ import { PageHeader } from "@/components/ui/PageHeader";
 
 export default function AboutPage() {
     return (
-      
+        <>
+            {/* <PageHeader
+                title="ABOUT US"
+                description="Building a community through the power of skateboarding."
+                backgroundImage="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=2070&auto=format&fit=crop"
+            /> */}
             <div className="text-center mb-16">
                                 <motion.h1
                                     initial={{ opacity: 0, y: 20 }}
