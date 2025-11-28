@@ -21,7 +21,7 @@ const programs = [
         id: 2,
         title: "Girls Skate",
         description: "Empowering young women through skateboarding workshops and mentorship programs.",
-        image: "https://images.unsplash.com/photo-1523825036634-aab3cce05919?q=80&w=1000&auto=format&fit=crop",
+        image: "/girls-skate.jpg",
         category: "Empowerment",
         location: "Hawassa",
         participants: "30+ Girls"
@@ -30,7 +30,7 @@ const programs = [
         id: 3,
         title: "Park Construction",
         description: "Building safe, community-centered skateparks across Ethiopia with local labor.",
-        image: "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1000&auto=format&fit=crop",
+        image: "/park.jpg",
         category: "Infrastructure",
         location: "Nationwide",
         participants: "Community"

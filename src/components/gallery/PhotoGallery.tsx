@@ -7,15 +7,15 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 
 const photos = [
-    { id: 1, src: "https://images.unsplash.com/photo-1520045864981-8a4a13aa8672?q=80&w=1000&auto=format&fit=crop", category: "Events", caption: "Addis Skate Jam 2024" },
-    { id: 2, src: "https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?q=80&w=1000&auto=format&fit=crop", category: "Community", caption: "Community Building" },
-    { id: 3, src: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1000&auto=format&fit=crop", category: "Skateparks", caption: "New Park Construction" },
-    { id: 4, src: "https://images.unsplash.com/photo-1566796127131-42d1368487bc?q=80&w=1000&auto=format&fit=crop", category: "Events", caption: "Youth Competition" },
-    { id: 5, src: "https://images.unsplash.com/photo-1523825036634-aab3cce05919?q=80&w=1000&auto=format&fit=crop", category: "Community", caption: "Girls Skate Day" },
-    { id: 6, src: "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1000&auto=format&fit=crop", category: "Skateparks", caption: "Hawassa Park Opening" },
-    { id: 7, src: "https://images.unsplash.com/photo-1572506823263-062a04712536?q=80&w=1000&auto=format&fit=crop", category: "Events", caption: "Street Session" },
-    { id: 8, src: "https://images.unsplash.com/photo-1531565637446-32307b194362?q=80&w=1000&auto=format&fit=crop", category: "Community", caption: "Mentorship Program" },
-    { id: 9, src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000&auto=format&fit=crop", category: "Skateparks", caption: "Park Design" },
+    { id: 1, src: "/gallary.jpg", category: "Events", caption: "Addis Skate Jam 2024" },
+    { id: 2, src: "/gallary1.jpg", category: "Community", caption: "Community Building" },
+    { id: 3, src: "/gallary2.jpg", category: "Skateparks", caption: "New Park Construction" },
+    { id: 4, src: "/gallary3.jpg", category: "Events", caption: "Youth Competition" },
+    { id: 5, src: "/gallary4.jpg", category: "Community", caption: "Girls Skate Day" },
+    { id: 6, src: "/gallary5.jpg", category: "Skateparks", caption: "Hawassa Park Opening" },
+    { id: 7, src: "/gallary6.jpg", category: "Events", caption: "Street Session" },
+    { id: 8, src: "/gallary7.jpg", category: "Community", caption: "Mentorship Program" },
+    { id: 9, src: "/gallary8.jpg", category: "Skateparks", caption: "Park Design" },
 ];
 
 const categories = ["All", "Events", "Community", "Skateparks"];
