@@ -1,5 +1,5 @@
 "use client";
-
+import { motion } from "framer-motion";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { MapSection } from "@/components/contact/MapSection";
 import { PageHeader } from "@/components/ui/PageHeader";
