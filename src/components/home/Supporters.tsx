@@ -177,17 +177,17 @@ export function Supporters() {
           {/* Overflow-hidden wrapper for clean edges */}
           <div className="overflow-hidden">
             <motion.div
-              className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, "-50%"] }}
-              transition={{
-                x: {
-                  repeat: Infinity,
-                  repeatType: "loop",
-                  duration: 30,
-                  ease: "linear",
-                },
-              }}
-            >
+  className="flex gap-20 md:gap-32 items-center"
+  animate={{ x: [0, "-33.333%"] }}   {/* now scrolls fully & forever */}
+  transition={{
+    x: {
+      repeat: Infinity,
+      repeatType: "loop",
+      duration: 25,
+      ease: "linear",
+    },
+  }}
+>
               {[...supporters, ...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
