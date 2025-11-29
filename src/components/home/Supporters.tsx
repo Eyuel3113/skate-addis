@@ -177,8 +177,8 @@ export function Supporters() {
           {/* Overflow-hidden wrapper for clean edges */}
           <div className="overflow-hidden">
             <motion.div
-  className="flex gap-20 md:gap-32 items-center"
-  animate={{ x: [0, "-33.333%"] }}   {/* now scrolls fully & forever */}
+              className="flex gap-20 md:gap-32 items-center"
+  animate={{ x: [0, -33.333 + "%"] }}  
   transition={{
     x: {
       repeat: Infinity,
