@@ -12,7 +12,7 @@ const programs = [
         id: 1,
         title: "Skate & Create",
         description: "Combining skateboarding with arts education to foster creativity and self-expression.",
-        image: "/skate&create.jpg",
+        image: "/gallary.jpg",
         category: "Education",
         location: "Addis Ababa",
         participants: "50+ Youth"
