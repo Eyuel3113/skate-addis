@@ -62,20 +62,20 @@
 //     );
 // }
 
+
 // "use client";
 
 // import { motion } from "framer-motion";
 // import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-// // Unique list of supporters (no duplicates)
 // const supporters = [
 //   { name: "Vans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/2560px-Vans-logo.svg.png" },
 //   { name: "Red Bull", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png" },
 //   { name: "Nike SB", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" },
-//   { name: "Skechers", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Skechers.svg" },
+//   { name: "Skechers", logo: "/sketcher.png" },
 //   { name: "Adidas", logo: "/adidas.jpg" },
-//   { name: "Monster Energy", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Monster_Energy_logo.svg/1200px-Monster_Energy_logo.svg.png" },
-//   { name: "DC Shoes", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/DC_Shoes_logo.svg/1200px-DC_Shoes_logo.svg.png" },
+//   { name: "Monster Energy", logo: "/monster.png" },
+//   { name: "DC Shoes", logo: "/dc.png" },
 // ];
 
 // export function Supporters() {
@@ -94,41 +94,43 @@
 //           <p className="text-sm font-bold tracking-widest text-muted-foreground uppercase">
 //             Trusted by Global Brands
 //           </p>
-          
 //         </motion.div>
 
-//         {/* Marquee */}
+//         {/* Marquee Container */}
 //         <div className="relative">
-//           {/* Fade edges */}
+//           {/* Left fade */}
 //           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+//           {/* Right fade */}
 //           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-//           <motion.div
-//             className="flex gap-20 md:gap-32 items-center"
-//             animate={{ x: [0, -50 + "%"] }}
-//             transition={{
-//               x: {
-//                 repeat: Infinity,
-//                 repeatType: "loop",
-//                 duration: 40,
-//                 ease: "linear",
-//               },
-//             }}
-//           >
-//             {/* Duplicate the array 3 times for seamless loop */}
-//             {[...supporters, ...supporters, ...supporters].map((supporter, index) => (
-//               <div
-//                 key={`${supporter.name}-${index}`}
-//                 className="flex-shrink-0 w-40 md:w-56 mx-4"
-//               >
-//                 <img
-//                   src={supporter.logo}
-//                   alt={`${supporter.name} logo`}
-//                   className="h-16 md:h-24 w-full object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500 hover:scale-110 cursor-pointer"
-//                 />
-//               </div>
-//             ))}
-//           </motion.div>
+//           {/* Overflow-hidden wrapper for clean edges */}
+//           <div className="overflow-hidden">
+//             <motion.div
+//               className="flex gap-20 md:gap-32 items-center"
+//   animate={{ x: [0, -33.333 + "%"] }}  
+//   transition={{
+//     x: {
+//       repeat: Infinity,
+//       repeatType: "loop",
+//       duration: 25,
+//       ease: "linear",
+//     },
+//   }}
+// >
+//               {[...supporters, ...supporters, ...supporters].map((supporter, index) => (
+//                 <div
+//                   key={`${supporter.name}-${index}`}
+//                   className="flex-shrink-0 w-40 md:w-56 mx-4"
+//                 >
+//                   <img
+//                     src={supporter.logo}
+//                     alt={`${supporter.name} logo`}
+//                     className="h-16 md:h-24 w-full object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500 hover:scale-110 cursor-pointer"
+//                   />
+//                 </div>
+//               ))}
+//             </motion.div>
+//           </div>
 //         </div>
 //       </div>
 //     </section>
@@ -167,27 +169,27 @@ export function Supporters() {
           </p>
         </motion.div>
 
-        {/* Marquee Container */}
+        {/* Marquee */}
         <div className="relative">
-          {/* Left fade */}
+          {/* Fade gradients */}
           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-          {/* Right fade */}
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-          {/* Overflow-hidden wrapper for clean edges */}
+          {/* This clips anything outside the viewport */}
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-  animate={{ x: [0, -33.333 + "%"] }}  
-  transition={{
-    x: {
-      repeat: Infinity,
-      repeatType: "loop",
-      duration: 25,
-      ease: "linear",
-    },
-  }}
->
+              animate={{ x: [0, "-33.333%"] }}  
+              transition={{
+                x: {
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  duration: 5,        
+                  ease: "linear",
+                },
+              }}
+            >
+              {/* 3 copies = perfect infinite loop */}
               {[...supporters, ...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
