@@ -183,7 +183,7 @@ export function Supporters() {
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 40,
+                  duration: 30,
                   ease: "linear",
                 },
               }}
