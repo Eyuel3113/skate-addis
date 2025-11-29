@@ -176,21 +176,21 @@ export function Supporters() {
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, -50 + "%"] }}        {/* ← THIS IS THE KEY */}
+              animate={{ x: [0, -100 * (supporters.length / supporters.length) + "%"] }} // → -100%
               transition={{
                 x: {
-                  duration: 5,                 // adjust speed here (25–35 feels best)
-                  ease: "linear",
                   repeat: Infinity,
-                  repeatType: "loop",           // ← crucial
+                  repeatType: "loop",
+                  duration: 5,
+                  ease: "linear",
                 },
               }}
             >
-              {/* ONLY 2 copies → perfect seamless loop */}
+              {/* Only 2 copies now — but we move the full -100% */}
               {[...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
-                  className="flex-shrink-0 w-40 md:w-56"
+                  className="flex-shrink-0 w-40 md:w-56 mx-4"
                 >
                   <img
                     src={supporter.logo}
