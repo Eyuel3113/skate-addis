@@ -15,7 +15,7 @@ export default function AboutPage() {
             />
             <Story />
             <Timeline />
-            <Team />
+            {/* <Team /> */}
         </>
     );
 }
