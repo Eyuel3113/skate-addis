@@ -8,9 +8,9 @@ const supporters = [
     { name: "Vans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/2560px-Vans-logo.svg.png" },
     { name: "Red Bull", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png" },
     { name: "Nike SB", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" },
-    { name: "Thrasher", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Thrasher_magazine_logo.svg/2560px-Thrasher_magazine_logo.svg.png" },
+     { name: "Vans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/2560px-Vans-logo.svg.png" },
     { name: "Adidas", logo: "/adidas.jpg" },
-    { name: "Element", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Element_Skateboards_logo.svg/2560px-Element_Skateboards_logo.svg.png" },
+    { name: "Vans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vans-logo.svg/2560px-Vans-logo.svg.png" },
 ];
 
 export function Supporters() {
