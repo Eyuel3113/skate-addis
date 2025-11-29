@@ -9,7 +9,7 @@ const supporters = [
     { name: "Red Bull", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/RedBullEnergyDrink.svg/1200px-RedBullEnergyDrink.svg.png" },
     { name: "Nike SB", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" },
     { name: "Thrasher", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Thrasher_magazine_logo.svg/2560px-Thrasher_magazine_logo.svg.png" },
-    { name: "Adidas", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/1200px-Adidas_Logo.svg.png" },
+    { name: "Adidas", logo: "/adidas.jpg" },
     { name: "Element", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Element_Skateboards_logo.svg/2560px-Element_Skateboards_logo.svg.png" },
 ];
 
