@@ -145,8 +145,8 @@ const supporters = [
   { name: "Nike SB", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" },
   { name: "Skechers", logo: "/sketcher.png" },
   { name: "Adidas", logo: "/adidas.jpg" },
-  { name: "Monster Energy", logo: "/monster.jpg" },
-  { name: "DC Shoes", logo: "/dc.jpg" },
+  { name: "Monster Energy", logo: "/monster.png" },
+  { name: "DC Shoes", logo: "/dc.png" },
 ];
 
 export function Supporters() {
