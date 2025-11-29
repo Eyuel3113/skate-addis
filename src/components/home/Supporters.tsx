@@ -157,7 +157,6 @@ export function Supporters() {
   return (
     <section ref={ref} className="py-24 bg-white border-t border-border/50 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
-        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
@@ -169,28 +168,26 @@ export function Supporters() {
           </p>
         </motion.div>
 
-        {/* Marquee */}
         <div className="relative">
-          {/* Fade gradients */}
+          {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-          {/* This clips anything outside the viewport */}
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, "-33.333%"] }}  
+              animate={{ x: [0, -100 * (supporters.length / supporters.length) + "%"] }} // → -100%
               transition={{
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 5,        
+                  duration: 25,
                   ease: "linear",
                 },
               }}
             >
-              {/* 3 copies = perfect infinite loop */}
-              {[...supporters, ...supporters, ...supporters].map((supporter, index) => (
+              {/* Only 2 copies now — but we move the full -100% */}
+              {[...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
                   className="flex-shrink-0 w-40 md:w-56 mx-4"
