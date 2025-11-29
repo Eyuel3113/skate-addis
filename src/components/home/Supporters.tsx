@@ -37,17 +37,17 @@ export function Supporters() {
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, "-50%"] }}           {/* ← CHANGED TO -50% */}
+              animate={{ x: [0, "-50%"] }}                {/* ← Static value = no build error */}
               transition={{
                 x: {
-                  duration: 25,                    {/* ← your preferred speed */}
+                  duration: 28,           // adjust speed here (25–35 feels great)
                   ease: "linear",
                   repeat: Infinity,
-                  repeatType: "loop",              {/* ← THIS MAKES IT SEAMLESS */}
+                  repeatType: "loop",     // ← this removes the jump completely
                 },
               }}
             >
-              {/* 2 copies only → perfect seamless loop */}
+              {/* Exactly 2 copies → perfect seamless infinite loop */}
               {[...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
