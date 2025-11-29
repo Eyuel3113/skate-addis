@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
@@ -38,17 +37,17 @@ export function Supporters() {
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, -100 * (supporters.length / supporters.length) + "%"] }} // → -100%
+              animate={{ x: [0, "-50%"] }}           {/* ← CHANGED TO -50% */}
               transition={{
                 x: {
-                  repeat: Infinity,
-                  repeatType: "loop",
-                  duration: 10,
+                  duration: 25,                    {/* ← your preferred speed */}
                   ease: "linear",
+                  repeat: Infinity,
+                  repeatType: "loop",              {/* ← THIS MAKES IT SEAMLESS */}
                 },
               }}
             >
-              {/* Only 2 copies now — but we move the full -100% */}
+              {/* 2 copies only → perfect seamless loop */}
               {[...supporters, ...supporters].map((supporter, index) => (
                 <div
                   key={`${supporter.name}-${index}`}
