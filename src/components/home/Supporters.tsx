@@ -176,7 +176,7 @@ export function Supporters() {
           <div className="overflow-hidden">
             <motion.div
               className="flex gap-20 md:gap-32 items-center"
-              animate={{ x: [0, "-50%"] }}        {/* ← THIS IS THE KEY */}
+              animate={{ x: [0, -50 + "%"] }}        {/* ← THIS IS THE KEY */}
               transition={{
                 x: {
                   duration: 5,                 // adjust speed here (25–35 feels best)
