@@ -40,7 +40,7 @@ export function Supporters() {
                 x: {
                   repeat: Infinity,
                   repeatType: "loop",
-                  duration: 25,
+                  duration: 5,
                   ease: "linear",
                 },
               }}
